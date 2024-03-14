@@ -1,0 +1,131 @@
+.fir{
+    width: 100%;
+    background-color: white;
+    border-right:1px solid gray ;
+    padding: 10px 0 10px 10px;
+    /* position: relative; */
+    font-size: 20px;
+    height:100vh ;
+}
+
+
+.drop{
+    /* position: relative; */
+}
+.down{
+    position: absolute;
+    display: none;
+    background-color: black;
+    color: white;
+    width: 92%;
+    padding: 10px;
+}
+.drop:focus-within .down{
+    display: block;
+}
+.jik{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: gray;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.paw{
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+.komm{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    padding: 6px;
+    color: white;
+    font-size: 8px;
+    border-radius: 100%;
+}
+.komm:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.ball{
+    color: white;
+    background-color: rgb(120,144,156);
+    padding: 4px 6px;
+    
+    border-radius: 100%;
+    
+}
+.klap{
+    height: 25px ;
+    width: 28px;
+    /* margin-top: 10px; */
+    border: none;
+    background-color: rgb(147, 137, 137);
+    border-radius: 100%;
+    text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.new{
+    
+    display: flex;
+    gap: 5px;
+    background-color: rgb(245,245,245);
+    border-radius: 8px;
+    padding: 0 5px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.wqw{
+    font-size: 12px;
+    color: gray;
+}
+.mat{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.demm{
+    background-color: rgb(229,244,255);
+    width: 100%;
+    border-radius: 8px;
+}
+.kilm{
+    height: 10px;
+    width: 10px;
+}
+.bant{
+    height: 82vh;
+    overflow-y: scroll;
+    font-size: 20px !important;
+    /* background-color: khaki; */
+}
+
+  .pama{
+    background-color: rgb(245,245,245);
+    margin:  10px;
+    font-size: 18px;
+    padding: 30px  10px;
+  }
+.brav{
+    background-color: rgb(13,153,255);
+    color: white;
+    padding: 8px 50px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    
+}
+.baubal{
+    position: fixed;
+    bottom: 0;
+}
