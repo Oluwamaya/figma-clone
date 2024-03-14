@@ -1,4 +1,10 @@
 
+.allt{
+    height: 100vh;
+    /* background-color: red; */
+    overflow: auto;
+}
+
 .net{
     background-color: rgb(151,71,255);
     margin:0  10px;
@@ -11,8 +17,9 @@
 }
 .glon{
     box-shadow: 2px 2px 2px gainsboro;
-    padding:15px 40px;
+    padding:25px 40px;
     font-size: 15px;
+    /* position: fixed; */
 }
 .borp{
     /* border:1px solid gray ; */
@@ -26,4 +33,22 @@
 .texti{
     font-size: 18px ;
        
+}
+.lagos{
+    
+    /* background-color: ; */
+   
+    display: flex;
+    /* align-items: center; */
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.grid1{
+    width: 31%;
+    margin: 1%;
+    /* background-color: rgb(66, 230, 29); */
+}
+.lol{
+    width: 30%;
 }
